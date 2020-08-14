@@ -17,11 +17,8 @@ import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 import {SELECT_DATE_SLOT} from '../testIDs';
 
 //Fallback for react-native-web or when RN version is < 0.44
-const {View, ViewPropTypes} = ReactNative;
-const viewPropTypes =
-  typeof document !== 'undefined'
-    ? PropTypes.shape({style: PropTypes.object})
-    : ViewPropTypes || View.propTypes;
+const {View, PropTypes} = ReactNative;
+const viewPropTypes = PropTypes.shape({style: PropTypes.object});
 const EmptyArray = [];
 
 /**
