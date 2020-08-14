@@ -1,8 +1,6 @@
-**LOOKING FOR A MAINTAINER**
-We love this project, but currently we don’t have enough time to work on it. So we are looking for a maintainer. If you have enough time and knowledge and want to become one - please let us know (levv@wix.com, inbalti@wix.com, ethans@wix.com)
+**Updates to react-native-calendars**
 
----
-
+I modified `node_modules/react-native-calendars/src/calendar/index.js` and `node_modules/react-native-calendars/src/agenda/index.js` to fix how ViewPropTypes isn't a thing in react anymore I guess.
 
 # React Native Calendars 🗓️ 📆
 [![Version](https://img.shields.io/npm/v/react-native-calendars.svg)](https://www.npmjs.com/package/react-native-calendars)
