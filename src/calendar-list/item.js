@@ -61,7 +61,7 @@ class CalendarListItem extends Component {
         <Calendar
           testID={`${this.props.testID}_${row}`}
           theme={this.props.theme}
-          style={[{height: this.props.calendarHeight, width: this.props.calendarWidth}, this.style.calendar, this.props.style]}
+          style={[{height: this.props.calendarHeight, width: this.props.calendarWidth}, this.style.calendar, this.props.style].reduce((r, c) => Object.assign(r, c))}
           current={row}
           hideArrows={this.props.hideArrows}
           hideExtraDays={this.props.hideExtraDays}
