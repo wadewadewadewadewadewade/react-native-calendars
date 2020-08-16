@@ -18,7 +18,7 @@ import {SELECT_DATE_SLOT} from '../testIDs';
 
 //Fallback for react-native-web or when RN version is < 0.44
 const {View} = ReactNative;
-const viewPropTypes = PropTypes.shape({style: PropTypes.object});
+const viewPropTypes = PropTypes.shape({style: PropTypes.any});
 const EmptyArray = [];
 
 /**
